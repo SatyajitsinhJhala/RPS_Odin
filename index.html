@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="game.js"></script>
+    
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
@@ -11,10 +11,11 @@
 <body>
     <div class="header">
         
-        <h1>Rock</h1> <h1>Paper</h1> <h1>Scissors</h1>
+    <h1>Rock-Paper-Scissors</h1>
         
     </div>
-    <div class="score"> <h2>Score:</h2> </div>
+    <div class="score"> <h1><p id="p_s">0</p><p>:</p><p id="c_s">0</p></h1> </div>
+    <div id="display"><h2></h2></div>
     <div class="Center">
         <div class="icons">
 
@@ -24,7 +25,7 @@
 
         </div>
 
-        <div class="text"> 
+        <div id="text"> 
 
             <h2>ROCK</h2>
             <h2>PAPER</h2>
@@ -33,5 +34,6 @@
         </div>
     </div>
     <div class="FOOTER"></div> 
+    <script src="game.js" defer></script>
 </body>
 </html>
